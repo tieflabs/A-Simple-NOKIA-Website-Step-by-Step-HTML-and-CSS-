@@ -1,0 +1,148 @@
+/*linking fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Saira:wght@500&display=swap');
+
+/*Page Optimization*/
+*{
+	padding: 0;
+	margin: 0;
+}
+body{
+	height: 100vh;
+	background: url(gsmarena_011.jpg);
+	background-size: cover;
+}
+
+/*Navigation bar*/
+.logo{
+	position: absolute;
+	color: lavender;
+	font-size: 50px;
+	left: -170%;
+	font-family: 'Saira', sans-serif;
+}
+nav{
+	height: 66px;
+	width: 100%;
+	justify-content: flex-end;
+	align-items: flex-end;
+	display: flex;
+	background: #000;
+}
+nav ul{
+	position: absolute;
+	display: flex;
+	margin-right: 80px;
+	line-height: 66px;
+}
+nav ul li{
+	list-style: none;
+	margin: 0 20px;
+}
+nav ul li a{
+	text-decoration: none;
+	color: #fff;
+	font-size: 22px;
+	font-family: sans-serif;
+}
+.active,a:hover{
+	border-bottom: 3px solid lavender;
+	padding-bottom: 10px;
+	color: lavender;
+}
+
+/*alignment of items*/
+.text{
+	height: 200px;
+	width: 500px;
+	transform: translate(100px, 109px);
+}
+.text-head{
+	font-size: 45px;
+	color: #1c2e44;
+	font-weight: 800;
+	font-family: 'Poppins', sans-serif;
+}
+.text-ds{
+	font-size: 22px;
+	margin-top: 55px;
+	font-weight: 500;
+	letter-spacing: 2px;
+	font-family: 'Poppins', sans-serif;
+}
+.btn{
+	position: absolute;
+	height: 100px;
+	width: 400px;
+	transform: translate(150px, 200px);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.btn span{
+	height: 45px;
+	width: 400px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 20px;
+	font-size: 22px;
+	font-family: sans-serif;
+}
+.lm{
+	border: 1px solid lavender;
+	border-radius: 5px;
+	background: lavender;
+	box-shadow: 8px 8px 1px #00000042;
+}
+.act{
+	border-radius: 5px;
+	background: #2d6e96;
+	color: #000;
+	cursor: pointer;
+	box-shadow: 8px 8px 1px #000;
+}
+.lm:hover{
+	background: #00000042;
+	box-shadow: 8px 8px 1px #000;
+	cursor: pointer;
+}
+.act:hover{
+	background: #2d6e96;
+	color: #fff;
+	cursor: pointer;
+	box-shadow: 8px 8px 1px #000;
+}
+.scl{
+	position: absolute;
+	height: 100%;
+	width: 30%;
+	background: #00000042;
+	top: 0;
+	border-bottom-right-radius: 40%;
+	border-top-right-radius: 40%;
+}
+.con{
+	position: absolute;
+	height: 40px;
+	width: 200px;
+	display: flex;
+	transform: translate(140px, 348px);
+}
+.con .conB, .conC{
+	height: 20px;
+	width: 20px;
+	margin-right: 20px;
+	background: #00000042;
+	border-radius: 50%;
+	cursor: pointer;
+}
+.conA{
+	height: 20px;
+	width: 20px;
+	margin-right: 20px;
+	background: #000;
+	border-radius: 50%;
+	cursor: pointer;
+	box-shadow: 0px 0px 13px 2px #000000a3;
+}
